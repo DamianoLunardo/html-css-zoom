@@ -32,6 +32,7 @@ main img {
 }
 
 /* set the user name */
+
 .user span {
     background-color:gray;
     color: white;
@@ -41,6 +42,49 @@ main img {
     bottom: 5px;
     padding:5px;
 }
+
+/* set the footer*/
+
+footer {
+    color: white;
+    background-color: rgb(61, 33, 33);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option, .group {
+    display: flex;
+}
+
+footer .icon , .center-icon {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.end-meeting {
+    display: flex;
+    color: red;
+    background-color: grey;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    padding; 0px 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
 
 

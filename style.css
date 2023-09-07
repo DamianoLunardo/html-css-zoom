@@ -16,14 +16,19 @@ main {
     flex-wrap: wrap;
 }
 
-.user {
-    position: relative;
-    background-color: brown;
+main img {
     width: 300px;
     height: 200px;
-    border-radius: 5px;
+    object-fit: cover;
+}
+
+.user {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
     overflow: hidden;
-    margin: 5px;
+    margin: 15px;
 }
 
 /* set the user name */
@@ -36,6 +41,7 @@ main {
     bottom: 5px;
     padding:5px;
 }
+
 
 
 

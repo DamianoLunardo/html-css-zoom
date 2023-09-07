@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 }
 
+/* main content*/
+
 main {
     background-color: black;
     display: flex;
@@ -12,6 +14,27 @@ main {
     overflow-y: auto;
     padding: 20px 0;
     flex-wrap: wrap;
+}
+
+.user {
+    position: relative;
+    background-color: brown;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+/* set the user name */
+.user span {
+    background-color:gray;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    bottom: 5px;
+    padding:5px;
 }
 
 

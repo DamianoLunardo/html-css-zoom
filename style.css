@@ -60,7 +60,7 @@ footer {
     align-items: center;
 }
 
-.option, .group {
+.option {
     display: flex;
 }
 
@@ -71,10 +71,6 @@ footer .icon , .center-icon {
     padding: 5px;
     cursor: pointer;
 }
-
-
-
-
 
 .end-meeting {
     display: flex;
